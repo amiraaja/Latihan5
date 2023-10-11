@@ -8,12 +8,6 @@ body {
     font-size: 40px;    
 }
 
-.header p{
-    color:antiquewhite;
-    margin: 16px;
-    font-size: 30px;
-}
-
 .header{
     display: flex;
     align-items: center;
@@ -32,14 +26,21 @@ body {
     cursor: pointer;
 }
 .header nav > a:hover{
-    color: cyan;
+    color: aquamarine;
 }
+
 
 .landing {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 128px;
+}
+
+.b1{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .landing img{
@@ -50,11 +51,11 @@ body {
     background-color: white;
     color: black;
     padding: 8px 24px;
-    border: 2px solid cyan;
+    border: 2px solid aquamarine;
 }
 
 .btn-contactus{
-    background-color:cyan;
+    background-color:aquamarine;
     color: white;
     padding: 8px 24px;
 }
@@ -69,6 +70,12 @@ body {
     color:black;
     font-size: 45px;
     margin-top: 100px;
+}
+
+.b2{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .left-image img {
@@ -130,6 +137,12 @@ body {
     padding: 8px 24px;
 }
 
+.b3 {
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
 .container2 {
     display: flex;
     justify-content: space-between;
@@ -165,22 +178,30 @@ body {
 
 .Contact{
     margin-top: 100px;
-    padding: 16px 128px;
+    padding: 16px 128px;;
+}
+
+.b4{
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .container3{
     padding: 16px 128px;
+    margin-bottom: 300px;
 }
 
 .form-container {
     border: 2px solid aquamarine;
     float: left;
-    margin-right: 50px ;
+    margin-right: 60px ;
 }
 
-.form-container h2 {
+.c1 {
     font-size: 20px;
     margin-bottom: 10px;
+
 }
 
 
@@ -190,13 +211,13 @@ body {
 }
 
 .form-group input, .form-group textarea {
-    width: 100%;
+    width: 90%;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
 .form-group textarea {
-    height: 80px;
+    height: 40px;
 }
 
 button {
@@ -211,12 +232,50 @@ button:hover {
     background-color: aquamarine;
 }
 
-.location h4 {
+.h4 {
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .map iframe {
     width: 60%;
-    border-radius: 10px;
+    border-radius: 5px;
     float: right; 
+}
+
+.footer{
+    position:absolute;
+    left: 50%;
+    background-color: aquamarine; 
+    width: 100%; 
+    transform: translateX(-50%);
+    color: white;
+    
+}
+
+h5{
+    font-size: 40px;
+    margin-bottom: 2%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+p{
+    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-left: 50px;
+}
+
+.icon {
+    width: 40px;  
+    margin-right: 10px; 
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    margin-top: 50px;
+    margin-right: 50px;
 }
