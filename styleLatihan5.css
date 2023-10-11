@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header h1{
+    font-family: Monsterrat;
+    color:black;
+    font-size: 40px;    
+}
+
+.header p{
+    color:antiquewhite;
+    margin: 16px;
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 120px;
+    position: sticky;
+    background-color: white;
+    color: black;
+    font-family: Monsterrat;
+}
+
+.header nav a{
+    color:black;
+    margin-left: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header nav > a:hover{
+    color: cyan;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 128px;
+}
+
+.landing img{
+    width: 500px;
+}
+
+.btn-moreinfo{
+    background-color: white;
+    color: black;
+    padding: 8px 24px;
+    border: 2px solid cyan;
+}
+
+.btn-contactus{
+    background-color:cyan;
+    color: white;
+    padding: 8px 24px;
+}
+
+.About{
+    margin-top: 100px;
+    padding: 16px 128px;
+}
+
+.About h1 {
+    font-family: Monsterrat;
+    color:black;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+.left-image img {
+    float: left;
+    margin:5px;
+    width: 500px;
+    margin-right: 70px ;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.line {
+  width: 70px;
+  height: 8px;
+  background-color:rgb(35, 136, 136);
+  margin-bottom: 4px;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 20px;
+  color:burlywood;
+}
+
+.Service{
+    margin-top: 110px;
+    padding: 16px 128px;
+}
+
+.navigation {
+    float: right;
+    font-size: 20px;
+}
+
+.button-contactus {
+    background-color: rgb(66, 145, 119);
+    color: white; 
+    font-size: 15px; 
+    text-align: center;
+    padding: 8px 24px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 16px 128px;
+}
+
+.box {
+    margin-top: 50px;
+    width: 300px;
+    text-align: center;
+    color: aquamarine;
+}
+
+.box img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text1 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.text2 {
+    color: dimgray;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Contact{
+    margin-top: 100px;
+    padding: 16px 128px;
+}
+
+.container3{
+    padding: 16px 128px;
+}
+
+.form-container {
+    border: 2px solid aquamarine;
+    float: left;
+    margin-right: 50px ;
+}
+
+.form-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    height: 80px;
+}
+
+button {
+    background-color: aquamarine;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+.location h4 {
+    font-size: 25px;
+}
+
+.map iframe {
+    width: 60%;
+    border-radius: 10px;
+    float: right; 
+}
